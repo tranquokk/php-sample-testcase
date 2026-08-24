@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC24_HardcodedSecrets
+class TC25_HardcodedSecrets
 {
     private $dbPassword = 'P@ssw0rd123!';
     private $apiKey = 'internal-api-key-1234567890abcdef';

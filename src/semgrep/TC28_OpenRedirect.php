@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC27_OpenRedirect
+class TC28_OpenRedirect
 {
     public function redirect(): void
     {

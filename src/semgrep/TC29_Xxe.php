@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC28_Xxe
+class TC29_Xxe
 {
     public function parseImport()
     {

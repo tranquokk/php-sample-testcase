@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC30_DynamicCodeExecution
+class TC31_DynamicCodeExecution
 {
     public function instantiate()
     {

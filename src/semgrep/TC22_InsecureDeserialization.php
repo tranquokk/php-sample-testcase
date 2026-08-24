@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC21_InsecureDeserialization
+class TC22_InsecureDeserialization
 {
     public function loadPreferences()
     {

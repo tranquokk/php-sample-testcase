@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC32_LogInjection
+class TC33_LogInjection
 {
     public function logAction(): void
     {

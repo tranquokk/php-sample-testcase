@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC25_PathTraversal
+class TC26_PathTraversal
 {
     public function download(): void
     {

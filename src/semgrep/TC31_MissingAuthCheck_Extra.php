@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC30_MissingAuthCheck_Extra
+class TC31_MissingAuthCheck_Extra
 {
     // Case phụ TC-30: thiếu kiểm tra quyền admin trước khi xoá user.
     // Lỗ hổng business logic thuần, không có pattern cú pháp nguy hiểm -> expected miss.

@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC22_WeakHashing
+class TC23_WeakHashing
 {
     public function hashPassword(string $password): string
     {

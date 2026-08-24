@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC23_LocalFileInclusion
+class TC24_LocalFileInclusion
 {
     public function renderPage(): void
     {

@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC31_Ssrf
+class TC32_Ssrf
 {
     public function fetchUrl(): string
     {

@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC26_InsecureRandom
+class TC27_InsecureRandom
 {
     public function generateOtp(): string
     {

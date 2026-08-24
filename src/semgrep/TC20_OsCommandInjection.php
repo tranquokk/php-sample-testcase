@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC19_OsCommandInjection
+class TC20_OsCommandInjection
 {
     public function pingHost(): string
     {

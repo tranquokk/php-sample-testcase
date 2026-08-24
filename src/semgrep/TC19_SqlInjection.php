@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC18_SqlInjection
+class TC19_SqlInjection
 {
     public function findUserByUsername(): array
     {

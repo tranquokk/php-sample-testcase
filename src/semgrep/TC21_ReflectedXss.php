@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC20_ReflectedXss
+class TC21_ReflectedXss
 {
     public function greet(): void
     {

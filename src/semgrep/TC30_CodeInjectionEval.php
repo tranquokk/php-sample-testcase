@@ -2,7 +2,7 @@
 
 namespace App\Semgrep;
 
-class TC29_CodeInjectionEval
+class TC30_CodeInjectionEval
 {
     public function calculate(): void
     {
