@@ -1,0 +1,11 @@
+{
+    "name": "internal/no-license-lib",
+    "description": "TC-14 fixture: local package with no license field declared.",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Internal\\NoLicenseLib\\": "src/"
+        }
+    }
+}

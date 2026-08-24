@@ -1,0 +1,12 @@
+{
+    "name": "internal/report-engine",
+    "description": "TC-10 fixture: local package declaring a proprietary license.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": ["proprietary"],
+    "autoload": {
+        "psr-4": {
+            "Internal\\ReportEngine\\": "src/"
+        }
+    }
+}

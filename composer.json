@@ -1,0 +1,35 @@
+{
+    "name": "testcase/php-sample-testcase",
+    "description": "Sample PHP project for security scan tool validation (ScanCode + Semgrep + Trivy). Not for production use.",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "local-packages/internal-report-engine"
+        },
+        {
+            "type": "path",
+            "url": "local-packages/internal-no-license-lib"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "5.2.10",
+        "internal/report-engine": "*",
+        "internal/no-license-lib": "*",
+        "johnpbloch/wordpress": "^6.0",
+        "ezyang/htmlpurifier": "^4.16",
+        "guzzlehttp/guzzle": "^7.8",
+        "monolog/monolog": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
