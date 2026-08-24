@@ -7,6 +7,6 @@ class TC02_SpdxMit
 {
     public function hello(): string
     {
-        return 'TC-02: standard SPDX identifier (MIT)';
+        return 'TC-02: standard SPDX identifier (permissive)';
     }
 }

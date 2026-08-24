@@ -9,6 +9,6 @@ class TC09_SpdxTypo
 {
     public function hello(): string
     {
-        return 'TC-09: three malformed SPDX identifier variants for GPL-3.0';
+        return 'TC-09: three malformed SPDX identifier variants';
     }
 }

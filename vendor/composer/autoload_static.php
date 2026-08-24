@@ -33,6 +33,7 @@ class ComposerStaticInitd18690b89487e4a8fae5d0c2e52a0ba9
         array (
             'Internal\\ReportEngine\\' => 22,
             'Internal\\NoLicenseLib\\' => 22,
+            'Internal\\GplLib\\' => 16,
         ),
         'G' => 
         array (
@@ -57,8 +58,8 @@ class ComposerStaticInitd18690b89487e4a8fae5d0c2e52a0ba9
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -75,6 +76,10 @@ class ComposerStaticInitd18690b89487e4a8fae5d0c2e52a0ba9
         'Internal\\NoLicenseLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/internal/no-license-lib/src',
+        ),
+        'Internal\\GplLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/internal/gpl-lib/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -95,13 +100,6 @@ class ComposerStaticInitd18690b89487e4a8fae5d0c2e52a0ba9
     );
 
     public static $prefixesPsr0 = array (
-        'j' => 
-        array (
-            'johnpbloch\\Composer\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
-            ),
-        ),
         'H' => 
         array (
             'HTMLPurifier' => 

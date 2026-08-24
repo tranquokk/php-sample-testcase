@@ -2,7 +2,7 @@
 
 namespace App\ScanCode;
 
-// Snippet functionally copied from a GPL-licensed project, license/copyright comment intentionally omitted.
+// Snippet copied from another project; license/copyright comment intentionally omitted for this test case.
 class TC03_CopiedNoLicense
 {
     public function quickSort(array $items): array

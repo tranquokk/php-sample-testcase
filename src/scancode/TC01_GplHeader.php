@@ -21,6 +21,6 @@ class TC01_GplHeader
 {
     public function hello(): string
     {
-        return 'TC-01: full GPL-3.0 header pasted into self-written code';
+        return 'TC-01: full copyleft license header pasted into self-written code';
     }
 }

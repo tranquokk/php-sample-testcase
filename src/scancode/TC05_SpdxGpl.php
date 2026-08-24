@@ -7,6 +7,6 @@ class TC05_SpdxGpl
 {
     public function hello(): string
     {
-        return 'TC-05: SPDX GPL-3.0-only';
+        return 'TC-05: SPDX identifier variant 1 of 3';
     }
 }

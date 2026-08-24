@@ -1,0 +1,12 @@
+{
+    "name": "internal/gpl-lib",
+    "description": "TC-11 fixture: local package declaring a GPL-3.0-or-later (strong-copyleft) license.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": ["GPL-3.0-or-later"],
+    "autoload": {
+        "psr-4": {
+            "Internal\\GplLib\\": "src/"
+        }
+    }
+}

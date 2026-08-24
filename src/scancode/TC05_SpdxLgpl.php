@@ -7,6 +7,6 @@ class TC05_SpdxLgpl
 {
     public function hello(): string
     {
-        return 'TC-05: SPDX LGPL-2.1-only';
+        return 'TC-05: SPDX identifier variant 2 of 3';
     }
 }

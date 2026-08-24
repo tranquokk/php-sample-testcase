@@ -17,6 +17,6 @@ class TC08_ConflictingSignals
 {
     public function hello(): string
     {
-        return 'TC-08: conflicting signals — SPDX MIT header followed by full GPL-3.0 text';
+        return 'TC-08: conflicting signals between the SPDX line above and the full license text above';
     }
 }
