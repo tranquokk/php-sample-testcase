@@ -3,7 +3,7 @@
         'name' => 'testcase/php-sample-testcase',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '643219a8f6e1d2126c22f266452872cce34b6e8a',
+        'reference' => '1f72d111f83c334e3014e2542fd2b779237c5cde',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -58,7 +58,7 @@
         'internal/no-license-lib' => array(
             'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
-            'reference' => '3ae033a5903464f8a22baf76583f7f9c225abd91',
+            'reference' => '105d8bcca83baba00a89938c43262742ac587f86',
             'type' => 'library',
             'install_path' => __DIR__ . '/../internal/no-license-lib',
             'aliases' => array(),
@@ -181,7 +181,7 @@
         'testcase/php-sample-testcase' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '643219a8f6e1d2126c22f266452872cce34b6e8a',
+            'reference' => '1f72d111f83c334e3014e2542fd2b779237c5cde',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

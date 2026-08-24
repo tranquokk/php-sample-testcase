@@ -436,7 +436,7 @@
             "dist": {
                 "type": "path",
                 "url": "local-packages/internal-no-license-lib",
-                "reference": "3ae033a5903464f8a22baf76583f7f9c225abd91"
+                "reference": "105d8bcca83baba00a89938c43262742ac587f86"
             },
             "type": "library",
             "installation-source": "dist",
@@ -445,7 +445,10 @@
                     "Internal\\NoLicenseLib\\": "src/"
                 }
             },
-            "description": "TC-14 fixture: local package with no license field declared.",
+            "license": [
+                "UNLICENSED"
+            ],
+            "description": "TC-14 fixture: local package with a non-standard/unparseable license value.",
             "transport-options": {
                 "relative": true
             },
